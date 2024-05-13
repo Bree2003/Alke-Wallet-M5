@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	max-width: 900px;
+	margin-bottom: 0 !important;
+}
+
+.title {
+	font-family: "Oleo Script Swash Caps", system-ui;
+}
+
+.separator {
+	display: flex;
+	gap: 1rem;
+}
+
+.form {
+	width: 100%;
+	max-width: 50%;
+}
+
+.buton {
+	height: 150px !important;
+	width: 150px !important;
+}
+
+img {
+	margin: auto;
+}
+
+@media screen and (max-width: 550px) {
+	.separator {
+		display: block !important;
+		gap: 0;
+	}
+
+	.form {
+		width: 100%;
+		max-width: 100% !important;
+	}
+
+	.buton {
+		height: 100px !important;
+		width: 100px !important;
+	}
+
+	img {
+		display: flex;
+	}
+}
